@@ -31,10 +31,7 @@ print(d3['k1'][0]['nest_key'][1])
 #Problem 4
 
 mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3]
-new = []
-for mylist in mylist:
-    if mylist not in new:
-        new.append(mylist)
+new = set(mylist)
 print(new)
 
 #Problem 5
